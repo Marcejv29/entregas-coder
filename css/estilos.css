@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+ 
+ body{
+    height: 100vh;
+ }
+ 
+ header{
+    height: 15vh;
+ }
+ 
+ main{
+     height: 75vh;
+ }
+ 
+ footer{
+     height: 10vh;
+    
+    
+ }
+
+.pasteleria-1 img{
+height:450px ;
+width:300px ;
+object-fit: cover;
+}
+.bomboneria-1 img{
+height:450px ;
+width:300px ;
+object-fit: cover;
+
+
+}
+.panaderia-1 img{
+height:450px ;
+width:300px ;
+object-fit: cover;
+}
+
+
+.callebaut-1 img{
+height:100px ;
+width:100px 
+object-fit: cover;
+position: ;
+}
+.calsa-1 img{
+height:100px ;
+width:100px 
+object-fit: cover;
+}
+.laserenisima-1 img{
+height:100px ;
+width:100px ;
+object-fit: cover;
+
+}
+.repdelcacao-1 img{
+height: 100px ;
+width:100px ;
+object-fit: cover;
+}
+.alyser-1 img{
+    height: 100px ;
+    width: 100px ;
+    object-fit: cover;
+}
+.logo-1 img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    
+}
+.card-img{
+    height: 350px;
+    margin-bottom: 15px;
+
+}
+
+.footer-imgs{
+
+    display: flex;
+flex-direction: row;
+
+}
+.footer-imgs img{
+
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    }
+
+.list-row{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    gap: 450px;
+}

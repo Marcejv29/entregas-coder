@@ -7,6 +7,11 @@
  
  body{
     height: 100vh;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
  }
  
  header{
@@ -19,6 +24,7 @@
  
  footer{
      height: 10vh;
+     margin-top: auto;
     
     
  }
@@ -100,4 +106,27 @@ flex-direction: row;
     list-style: none;
     text-align: center;
     gap: 450px;
+}
+
+.footer-bottom{
+    bottom: 0;
+    width: 100%;
+    position:absolute;
+}
+
+.footer-bom div{
+
+    height: 10vh;
+    margin-top: auto;
+   position: absolute;
+}
+
+.main-bom{
+    height: 100vh;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+   position: absolute;
 }

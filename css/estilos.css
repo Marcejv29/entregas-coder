@@ -120,6 +120,9 @@ flex-direction: row;
     height: 10vh;
     margin-top: auto;
    position: absolute;
+   min-height: 100vh;
+   padding-bottom: 3em;
+   
 }
 
 .main-bom{
@@ -130,4 +133,7 @@ flex-direction: row;
     flex-direction: column;
     min-height: 100%;
    position: absolute;
+   gap: 3rem;
+   min-height: 100vh;
+   padding-bottom: 3em;
 }
